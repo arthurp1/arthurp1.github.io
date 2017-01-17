@@ -1,0 +1,99 @@
+
+$primary-color: #333
+
+@font-face {
+font-family: 'Roboto', sans-serif;
+font-size: 1.5rem;
+src: url('includes/fonts/Roboto-Medium');
+}
+
+@font-face {
+font-family: 'Inconsolata', monospace;
+src: url('includes/fonts/Inconsolata-Regular');
+}
+
+body {
+	font-family: 'Inconsolata';
+}
+
+h1 {
+	font-family: 'Inconsolata';
+	font-size: 1.3rem;
+}
+
+/*Navigation*/
+
+.line-no {
+	margin-top: 80px;
+	font-size: 3rem;
+	font-family: 'Roboto-Bold';
+	color: #d1d1d1;
+	text-align: center;
+}
+
+.line {
+	border-left: 1px solid #d1d1d1;
+	height: 77%;
+	margin-left: 16px;
+	overflow: hidden;
+}
+
+.line-text{
+	margin-top: 80px;
+	color: #d1d1d1;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.intro {
+	top: 100px;
+	margin-bottom: 190px;
+}
+
+.intro-name {
+	font-family: 'Roboto-Bold';
+	font-size: 1.4rem;
+	margin-bottom: -3px;
+}
+
+.intro-title h1 {
+	font-family: 'Inconsolata';
+	font-size: 1rem;
+}
+.intro-quote {
+	margin-top: 15px;
+	font-size: 1.2rem;
+}
+.intro-text {
+	margin-top: 50px;
+}
+
+.intro-image img {
+	width: 100%;
+	max-width: 200px;
+	opacity: 0.9;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+
+}
+
+#skills {
+	background-color: #f5f5f5;
+}
+
+.skill-wrapper  {
+	width: 193px;
+	height: 31px;
+	border-radius: 7px;
+	background-color: #d8d8d8;
+	
+}
+.skill-item {
+	width: 135px;
+	height: 31px;
+	padding: 5px;
+	margin: 20px 0px;
+	border-radius: 7px;
+	background-color: #7db9ff;
+}
