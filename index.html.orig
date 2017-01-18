@@ -36,11 +36,20 @@
 <section id="skills">
 	<div class="container skills">
 		<div class="row">
+<<<<<<< HEAD
 			<div class="navl navl-intro col-md-1 hidden-md-down">
 				<div class="line-no">2</div>
-				<div class="skillmeter-1"></div>
+				<div class="line">
 				<div class="line-text">Skills</div>
 				</div>
+=======
+			<div class="skill-meters col-md-3">
+			<div class="skill-bar">
+				<div class="skillmeter-1">Kerst</div>
+			</div>
+			<div class="skill-bar">
+				<div class="skillmeter-2"></div>
+>>>>>>> refs/remotes/origin/master
 			</div>
 
 			<div class="skill-meters col-md-3">
